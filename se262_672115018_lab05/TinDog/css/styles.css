@@ -1,0 +1,141 @@
+/* HTML element */
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+
+/* Container */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+
+/* Navigation Bar*/
+
+.navbar {
+  /* style the navbar's padding bottom 4rem */
+  padding-bottom: 4rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  /* style the nav-item's padding 0 18px */
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+
+
+
+
+/* title */
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.big-heading {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.title-image {
+  width: 40%;
+  transform: rotate(25deg);
+}
+
+
+
+
+
+
+
+
+/* Feature section   */
+#features {
+  background-color: #fff;
+  padding: 7% 15%;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.feature-title {
+  font-size: 1.75rem;
+}
+
+#features p {
+  line-height: 1.5;
+  color: #8f8f8f;
+}
+
+
+
+
+
+
+/* Download section */
+#download {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+#download h3 {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.download-btn {
+  margin: 5% 1%;
+}
+
+
+
+
+/* footer section*/
+#footer {
+  background-color: #fff;
+  padding: 7% 15%;
+}
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem 0;
+}
+
+.social-icons li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.copyright {
+  color: #8f8f8f;
+}
+
